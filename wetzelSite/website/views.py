@@ -6,3 +6,9 @@ def index(request):
 
 def main(request):
     return render(request, 'main.html')
+
+def test(request):
+    return render(request, 'test.html')
+
+def gallery(request):
+    return render(request, 'main.html')
