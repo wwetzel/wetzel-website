@@ -5,10 +5,8 @@ def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 def main(request):
-    return render(request, 'main.html')
-
-def test(request):
-    return render(request, 'test.html')
-
-def gallery(request):
-    return render(request, 'main.html')
+    import random
+    randomNumber = random.random()
+    randomNumber = str(randomNumber)
+    randomNumber = randomNumber[1:]
+    return render(request, 'main.html', {'randomNumber':randomNumber})

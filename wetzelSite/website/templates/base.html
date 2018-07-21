@@ -16,8 +16,12 @@
         <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
         <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
         <!-- Theme style  -->
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <link rel="stylesheet" href="/static/css/style.css?{% now 'U' %}">
+        <!--<link rel="stylesheet" href="{% static 'css/style.css' %}">-->
+
+        <!--<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;======================================-&#45;&#45;&#45;&#45;{% static 'css/style.css' %}</p>-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"></script>
