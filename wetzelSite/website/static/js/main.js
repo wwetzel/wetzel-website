@@ -2,8 +2,6 @@
 	
 	'use strict';
 
-
-
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -120,7 +118,7 @@
 	};
 
 	var burgerMenu = function() {
-
+        alert("doc loaded")
 		$('.js-fh5co-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
@@ -133,9 +131,6 @@
 				$('body').addClass('offcanvas');	
 			}
 		});
-
-
-
 	};
 
 	// Click outside of offcanvass
