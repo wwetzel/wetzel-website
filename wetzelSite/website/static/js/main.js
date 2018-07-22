@@ -118,7 +118,6 @@
 	};
 
 	var burgerMenu = function() {
-        alert("doc loaded")
 		$('.js-fh5co-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
